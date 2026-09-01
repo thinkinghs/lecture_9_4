@@ -1,0 +1,241 @@
+============================================================
+보고서 AI 이미지 시각화 실습 — 프롬프트 템플릿 모음 (수강생 배포용)
+============================================================
+
+[사용 안내]
+- 이 파일의 골격은 [Style] / [Composition] / [가운데 칸] / [Design] / [Text] / [Quality]
+  로 이루어져 있습니다. 대괄호는 문법이 아니라, 의도를 항목으로 나눠 모델이
+  이해하기 쉽게 정리한 것입니다.
+- 바깥 항목(Style, Composition, Design, Text, Quality)은 거의 그대로 두고,
+  가운데 칸만 갈아 끼우면 세 가지 시각화에 모두 씁니다.
+- 글자는 짧게, 따옴표로 정확히 적습니다. 수치는 내가 준 것만 쓰고 지어내지 않게 합니다.
+- 생성한 뒤에는 반드시 원문과 대조해 검증합니다. (특히 한글 글자와 숫자)
+
+
+------------------------------------------------------------
+1) - a 표지 일러스트 템플릿  (가운데 칸 = Visual elements)
+------------------------------------------------------------
+
+Create a premium report cover illustration.
+
+[Style]
+Clean isometric vector infographic. Corporate research-report aesthetic.
+Modern flat illustration with subtle depth. Minimal, intelligent look.
+
+[Composition]
+Keep the upper 70% of the page clean and empty (space for the title).
+Place the illustration in the lower 30%, centered. White background. Vertical A4 ratio.
+
+[Visual elements]   ← 이 칸만 보고서 주제로 교체
+researchers working with a data network and an AI dashboard,
+flowing data lines, a connected node graph
+
+[Design]
+Small human figures. Clean geometric shapes. Soft shadows.
+2-3 color palette (navy and light blue). No clutter, no decorative background.
+
+[Text]
+Korean title only: "연구데이터 관리체계 고도화"  (한 줄, 정확히)
+Do not add any other text.
+
+[Quality]
+Premium annual-report cover. 
+
+[Reference]
+McKinsey or Deloitte illustration quality.
+
+
+
+------------------------------------------------------------
+1) - b 표지 일러스트 템플릿  
+------------------------------------------------------------
+1. 스타일 및 구성 (Style & Composition):
+Style: Modern isometric vector illustration, clean digital graphic design, flat or semi-flat style with bright, professional colors (teal, green, blue, orange, white).
+Background: Minimalist solid white background with a vertical layout.
+
+2. 상단 텍스트 및 제목 (Upper Text & Titles):
+Header: Place "Focus" in green text on the top left and "Deep inside" in gray text on the top right.
+Main Title (Korean):
+"배터리 생산,
+제조업에서 데이터 산업으로"(Render in large, bold black text)
+Subtitle (Korean):
+"2차 전지 산업을 움직이는 데이터 분석과 모델링"(Render in bold green text, with a thin green horizontal line underneath)
+
+3. 본문 텍스트 (Body Text):
+Paragraph (Korean):
+"배터리 산업은 지금 더 많이 만드는 경쟁에서 더 정밀하게 분석하는 경쟁으로 이동하고 있다. 소재 탐색과 제조 공정, 수명 예측과 공급망 분석, 정책 변화까지 산업 전반을 움직이는 변수들이 데이터와 모델링 위에서 다시 해석되면서, 배터리 산업의 경쟁력도 새로운 기준 위에서 재편되고 있다."(Render in standard size black text)
+
+4. 하단 일러스트레이션 묘사 (Lower Illustration):
+Main Element: A large green isometric smartphone platform acting as a base.
+On the Phone Screen:
+An open white electric vehicle (EV) chassis with visible internal components and lightning bolt icons on the side.
+A large charging battery icon displayed vertically at the top.
+Various miniature professional people in business attire interacting with data:
+One person looking at a tablet near the car.
+Another person analyzing a large bar chart (teal and orange) on the left.
+Two people pointing and discussing near a larger battery cell on the right.
+One person looking at a laptop.
+Data elements floating: location pins, gear icons, energy lightning bolt symbols.
+Below the Phone:
+A blue internal battery cell diagram on the bottom left of the phone screen.
+An electric plug icon connected by cables on the bottom right.
+Abstract green circuit board lines spreading out from the base. 
+
+
+
+
+
+------------------------------------------------------------
+2) - a 내용 구조 템플릿  (가운데 칸 = Structure)
+------------------------------------------------------------
+
+Create a clean infographic that shows the STRUCTURE of report content (not a chart).
+
+[Style]
+Flat editorial infographic. Clean, minimal, professional consulting style.
+
+[Composition]
+Single page, balanced layout. White background. Left-to-right reading order.
+
+[Structure]   ← 가운데 칸: 구조 유형과 노드
+Type: 5-step horizontal process
+Steps (한글 그대로):
+  1) 계획 수립   2) 수집·생성   3) 처리·분석   4) 보존·관리   5) 공유·활용
+Each step has a short one-line Korean caption underneath.
+Connect the steps in order with arrows.
+
+[Design]
+One simple icon per step. Numbered badges. Consistent spacing. No clutter.
+
+[Text]
+All labels in Korean, exactly as written above. Keep each label short.
+
+[Quality]
+Premium consulting deliverable, readable at a glance.
+
+  ── 가운데 칸(Structure) 변형 ──
+  · 위계도: Type: concept hierarchy  + 상위/하위 노드  (예: FAIR 원칙 4개)
+  · 관계도: Type: relationship map   + 노드와 연결
+  · 원칙 묶음: Type: grouped principles + 묶을 항목 (예: 3대 추진 원칙)
+
+
+
+------------------------------------------------------------
+2) - b 내용 구조 템플릿 
+------------------------------------------------------------
+
+아래 보고서를 분석해서 인포그래픽 생성 프롬프트를 만들어줘.
+
+[보고서 내용]
+{여기에 보고서 본문 붙여넣기}
+
+[작업]
+1. 이 내용에 가장 적합한 구조 유형을 아래 중에서 고르고, 왜 그게 맞는지 1줄로 설명해.
+   - 5-step horizontal process (순차적 흐름일 때)
+   - concept hierarchy (상위/하위 위계가 있을 때)
+   - relationship map (항목 간 연결·상호작용이 핵심일 때)
+   - grouped principles (병렬적 원칙·항목 묶음일 때)
+2. 그 구조에 들어갈 노드/라벨과 각 노드의 한 줄 한글 캡션을 뽑아줘. (라벨은 짧게)
+3. 위에서 뽑은 내용을 아래 템플릿의 [Structure] 칸에 채워서, 완성된 시각화 프롬프트를 출력해줘.
+
+[템플릿]
+Create a clean infographic that shows the STRUCTURE of report content (not a chart).
+
+[Style]
+Flat editorial infographic. Clean, minimal, professional consulting style.
+
+[Composition]
+Single page, balanced layout. White background. Left-to-right reading order.
+
+[Structure]   ← 가운데 칸: 구조 유형과 노드
+Type: 5-step horizontal process
+Steps (한글 그대로):
+  1) 계획 수립   2) 수집·생성   3) 처리·분석   4) 보존·관리   5) 공유·활용
+Each step has a short one-line Korean caption underneath.
+Connect the steps in order with arrows.
+
+[Design]
+One simple icon per step. Numbered badges. Consistent spacing. No clutter.
+
+[Text]
+All labels in Korean, exactly as written above. Keep each label short.
+
+[Quality]
+Premium consulting deliverable, readable at a glance.
+
+  ── 가운데 칸(Structure) 변형 ──
+  · 위계도: Type: concept hierarchy  + 상위/하위 노드  (예: FAIR 원칙 4개)
+  · 관계도: Type: relationship map   + 노드와 연결
+  · 원칙 묶음: Type: grouped principles + 묶을 항목 (예: 3대 추진 원칙)
+
+
+
+------------------------------------------------------------
+3) 데이터 강조 템플릿  (가운데 칸 = Data, 픽셀 모델용)
+------------------------------------------------------------
+
+Create a data-highlight infographic. This is NOT a precise chart.
+
+[Style]
+Flat, clean, professional. Big-number editorial style.
+
+[Composition]
+White background. Balanced. The big numbers are the focus.
+
+[Data]   ← 수치는 내가 준 것만, 라벨로 정확히
+Three KPI cards:
+  "1,240"  등록 데이터셋
+  "87"     참여 연구실
+  "3,910"  외부 재사용
+Make the "외부 재사용" card the largest.
+
+[Rule]   ← 이 갈래의 핵심
+Show the numbers as large text labels only.
+Do NOT reproduce exact proportions by area or angle.
+
+[Design]
+3 KPI cards: big number, Korean label, one small icon.
+No pie or bar charts. Limited palette. Highlight the most important card.
+
+[Text]
+Korean labels and the exact numbers above. Short.
+
+[Quality]
+Premium report KPI section.
+
+
+------------------------------------------------------------
+4) NotebookLM 데이터 지시문  (Studio > 인포그래픽 또는 데이터 테이블)
+------------------------------------------------------------
+
+이 보고서의 주요 성과(등록 데이터셋, 참여 연구실, 외부 재사용 건수)를
+큰 숫자 카드형으로 정리해줘.
+출처에 있는 수치만 쓰고, 없는 숫자는 만들지 마.
+가장 중요한 지표를 크게 강조해줘.
+
+  · 생성 전: 연필 아이콘에서 언어를 한국어, 상세도를 Concise나 Standard로.
+  · 생성 후: 각 숫자가 보고서 어디에서 나왔는지 출처를 눌러 확인.
+
+
+------------------------------------------------------------
+5) 골격을 LLM에게 채우게 하는 메타 프롬프트
+------------------------------------------------------------
+
+나는 [무엇을] _______ 만들려고 해.        (예: 연구용 보고서 표지)
+용도와 대상: _______                      (예: 공공기관, 연구자와 행정직원)
+원하는 느낌: _______ (형용사 한두 개)       (예: 신뢰감 있고 깔끔하게. 과한 연출은 빼고)
+
+이 의도에 맞는 이미지 생성 프롬프트를 아래 항목으로 채워줘.
+[Style] / [Composition] / [Visual elements 또는 Structure 또는 Data] / [Design] / [Text] / [Quality]
+각 항목을 왜 그렇게 정했는지 한 줄 설명도 붙여줘.
+글자는 짧게. 수치는 내가 준 것만 쓰고 지어내지 마.
+
+  · 받아온 프롬프트는 초안입니다. 세 가지만 확인하고 생성하세요.
+    (1) 글자 양이 너무 길지 않은가
+    (2) cinematic, dramatic 같은 과한 연출이 끼지 않았는가 (보고서는 clean, flat, soft)
+    (3) 내가 주지 않은 숫자를 끼워 넣지 않았는가
+
+
+============================================================
+끝. 가운데 칸만 바꿔 재사용하세요. 생성 후 검증은 늘 사람이 합니다.
+============================================================
